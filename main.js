@@ -1,10 +1,25 @@
 $(document).ready(function(){
-/*
-$('.autoplay').slick({
-  slidesToShow: 3,
+
+	/*
+  $('.carousel').slick({
+  	slidesToShow: 1,
+  	dots:true,
+  	centerMode: true,
+  });
+ */
+
+$('.carousel').slick({
+  slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 4000,  
+  arrows: false,
+  pauseOnHover: false,
+
 });
-*/
+
+
+$(".single-item").slick({
+	dots: true
+});
 });

@@ -39,6 +39,14 @@ nav li:hover {
 	padding-right: 2rem;
 }
 
+ 
+ /*
+.carousel{
+  width:90%;
+  margin:0px auto;
+}
+*/
+
 .jumbotron-bike {
 	background-image: url("jumbotron-bike.jpg");
 }
